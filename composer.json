@@ -1,0 +1,18 @@
+{
+    "name": "naythukhant/tmdb",
+    "license": "MIT",
+    "description": "A laravel package that helps you to retrieve data form https://api.themoviedb.org/ easily.",
+    "autoload": {
+        "psr-4": {
+            "NayThuKhant\\TMDB\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Nay Thu Khant",
+            "email": "naythukhant644@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}

@@ -5,7 +5,7 @@ A laravel package that helps you to retrieve data form https://api.themoviedb.or
 
 - Install the package to your laravel project.
 ```
-composer reuqire naythukhant/tmdb
+composer require naythukhant/tmdb
 ```
 
 

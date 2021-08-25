@@ -1,11 +1,18 @@
 <?php
 
 namespace NayThuKhant\TMDB;
+
 use Illuminate\Support\Facades\Http;
 use Illuminate\Support\Facades\Log;
 
 class TMDB
 {
+    public function __construct()
+    {
+        throw_if(!config('tmdb.token'),
+            new \Exception('Please dont forget to register   NayThuKhant\TMDB\TMDBServiceProvider::class to app.php and add TMDB_TOKEN to .env'));
+    }
+
     public function fetchMoviesAndGenres()
     {
         try {

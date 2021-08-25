@@ -25,4 +25,6 @@ composer require naythukhant/tmdb
 php artisan vendor:publish --tag=tmdb
 ```
 
+#👌HAVE FUN👌
+
 
